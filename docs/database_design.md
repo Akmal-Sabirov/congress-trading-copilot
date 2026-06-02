@@ -1,6 +1,6 @@
 # Database Design
 
-## politicians
+## people
 
 Stores information about members of Congress.
 
