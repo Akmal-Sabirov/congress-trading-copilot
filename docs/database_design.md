@@ -7,11 +7,11 @@ Stores information about members of Congress.
 | Column | Type | Description |
 |----------|----------|----------|
 | id | SERIAL | Primary Key |
-| first_name | VARCHAR(100) | First Name |
-| last_name | VARCHAR(100) | Last Name |
-| full_name | VARCHAR(200) | Full Name |
-| chamber | VARCHAR(20) | House or Senate |
-| party | VARCHAR(20) | Democrat, Republican, Independent |
-| state | VARCHAR(10) | State |
-| is_active | BOOLEAN | Currently serving |
+| full_name | VARCHAR(200) | Person's full name |
+| person_type	| VARCHAR(20) |	politician, spouse |
+| related_to	| VARCHAR(200) |	Related politician (if spouse) |
+| chamber | VARCHAR(20) | House, Senate, NULL |
+| party | VARCHAR(20) | Democrat, Republican, Independent, NULL |
+| state | VARCHAR(10) | State abbreviation |
+| is_active | BOOLEAN | Active member of Congress |
 | created_at | TIMESTAMP | Record creation date |
