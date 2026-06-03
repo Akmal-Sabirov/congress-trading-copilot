@@ -1,1 +1,4 @@
-week2_summary.md
+Tables created
+Relationships created
+Constraints added
+Key design decisions
